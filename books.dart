@@ -4,7 +4,7 @@ class Book {
   static final Set<String> _usedIsbns = {}; 
   String title;
   String author;
-  int year;
+  dynamic year;
   String genre;
   String isbn;
   bool isLent;
